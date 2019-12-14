@@ -1,0 +1,106 @@
+.movie {
+  width: 414px;
+  height: auto;
+  text-align: center;
+  position: relative;
+  background-color: #ff6200; }
+  .movie .bg_img_10px_blur {
+    width: 414px;
+    height: 704px;
+    background-color: var(--black-50);
+    position: absoulute;
+    z-index: 0; }
+    .movie .bg_img_10px_blur .img_container {
+      width: 326px;
+      height: 483px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px 0 var(--black-50);
+      background-color: #ffffff;
+      margin: auto;
+      position: relative;
+      top: 44px;
+      z-index: 1; }
+      .movie .bg_img_10px_blur .img_container .img_poster {
+        width: 326px;
+        height: 483px;
+        border-radius: 8px;
+        position: relative; }
+    .movie .bg_img_10px_blur .gradient {
+      width: 414px;
+      height: 100px;
+      background-image: linear-gradient(#ff6000, #ffffff);
+      position: absolute;
+      top: 340px;
+      z-index: 0; }
+  .movie .bg_content {
+    width: 414px;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 5; }
+    .movie .bg_content .name_movie {
+      width: auto;
+      height: auto;
+      font-family: Roboto;
+      font-size: 55px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: auto auto; }
+    .movie .bg_content .info_movie {
+      width: 269px;
+      height: 15px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #5d5d5d;
+      margin: 15px 73px 24px 72px; }
+    .movie .bg_content .rating {
+      width: 71px;
+      height: auto;
+      font-family: Roboto;
+      font-size: 34px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: auto auto; }
+      .movie .bg_content .rating .text-style-1 {
+        font-size: 21px;
+        font-weight: normal;
+        color: #5d5d5d; }
+    .movie .bg_content .bg_button {
+      width: 326px;
+      height: 64px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px 0 rgba(255, 96, 0, 0.5);
+      background-color: #ff6000;
+      margin: 0px 44px 44px 44px;
+      cursor: pointer; }
+    .movie .bg_content .text_button {
+      width: auto;
+      height: auto;
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 2.1px;
+      text-align: center;
+      color: #ffffff; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
