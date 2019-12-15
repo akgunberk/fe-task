@@ -17,7 +17,7 @@ class App extends React.Component {
                     </Head>
                 {
                 movieList.map((element,id) => {
-                return (<Movie id = {id} data = {element}/>)
+                return (<Movie key = {id} data = {element}/>)
                 })
                 }
             </React.Fragment>
