@@ -42,19 +42,25 @@
       "static/O2y4KvDnXcWU0HACcwic1/pages/index.js": 13,
       "static/O2y4KvDnXcWU0HACcwic1/pages/movie.js": 14,
       "static/O2y4KvDnXcWU0HACcwic1/pages/movieDuration.js": 15,
-      "static/O2y4KvDnXcWU0HACcwic1/pages/progress.js": 16
+      "static/O2y4KvDnXcWU0HACcwic1/pages/progress.js": 16,
+      "static/esPcn6-UBj1s26T-WDVGu/pages/_app.js": 2,
+      "static/esPcn6-UBj1s26T-WDVGu/pages/_error.js": 3,
+      "static/esPcn6-UBj1s26T-WDVGu/pages/index.js": 4,
+      "static/esPcn6-UBj1s26T-WDVGu/pages/movie.js": 5,
+      "static/esPcn6-UBj1s26T-WDVGu/pages/movieDuration.js": 6,
+      "static/esPcn6-UBj1s26T-WDVGu/pages/progress.js": 7
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
       8,
       9
     ]
