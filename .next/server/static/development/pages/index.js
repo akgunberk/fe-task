@@ -691,7 +691,7 @@ class Movie extends react__WEBPACK_IMPORTED_MODULE_7__["Component"] {
         lineNumber: 142
       },
       __self: this
-    }, " | See full cast and crew >>  "))))) : null;
+    }, " | See full cast & crew >>  "))))) : null;
     return __jsx("div", {
       id: this.props.data.id,
       className: "movie",
@@ -782,13 +782,22 @@ class Movie extends react__WEBPACK_IMPORTED_MODULE_7__["Component"] {
         lineNumber: 179
       },
       __self: this
-    }), movieDetails, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Transition"], {
+    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Transition"], {
+      visible: this.state.show,
+      animation: 'fade',
+      duration: 850,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 181
+      },
+      __self: this
+    }, movieDetails), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Transition"], {
       animation: 'bounce',
       duration: 200,
       visible: this.state.visible,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 183
+        lineNumber: 186
       },
       __self: this
     }, __jsx("button", {
@@ -801,7 +810,7 @@ class Movie extends react__WEBPACK_IMPORTED_MODULE_7__["Component"] {
       onClick: this.handleClick,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 189
+        lineNumber: 192
       },
       __self: this
     }, __jsx("p", {
@@ -809,7 +818,7 @@ class Movie extends react__WEBPACK_IMPORTED_MODULE_7__["Component"] {
       className: "text_button",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 191
+        lineNumber: 194
       },
       __self: this
     }, " MOVIE DETAILS ")))));
@@ -840,8 +849,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 const Duration = props => {
-  const prop = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(props.min.slice(2, 5));
-
+  const prop = props.min != undefined ? _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(props.min.slice(2, 5)) : null;
   const hour = (prop / 60).toFixed(1)[0];
   const minute = prop - hour * 60;
   return __jsx("span", {

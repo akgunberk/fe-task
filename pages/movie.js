@@ -139,7 +139,7 @@ class Movie extends Component {
 
                         {   (this.state.details.actors.length <= 3) ? 
                                 <p> <span style={{marginRight:'18px'}} className='content_movie_summary_header'> Stars: </span> {this.state.details.actors.slice(0,3).join(', ')} </p>   : 
-                                <p> <span className='content_movie_summary_header'> Stars: </span> {this.state.details.actors.slice(0,3).join(', ')} <span> | See full cast and crew >>  </span></p> 
+                                <p> <span className='content_movie_summary_header'> Stars: </span> {this.state.details.actors.slice(0,3).join(', ')} <span> | See full cast &amp; crew >>  </span></p> 
                         }
                                 
                     </div>
@@ -178,7 +178,10 @@ class Movie extends Component {
 
                     <Rate id = {this.props.data.id + "_rate"} percent={this.props.data.imdbRating*10} barStyle = {this.state.barStyle} />
 
-                    {movieDetails}
+                    <Transition visible={this.state.show} animation={'fade' }duration={850}>
+                        {movieDetails}
+
+                    </Transition>
                     
                     <Transition
                         animation= {'bounce'}
