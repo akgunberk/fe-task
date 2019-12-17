@@ -1,0 +1,47 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/index.js": 0,
+      "multi private-next-pages/movie.js": 1,
+      "multi private-next-pages/movieDuration.js": 2,
+      "multi private-next-pages/progress.js": 3,
+      "multi next/dist/pages/_app": 4,
+      "multi next/dist/pages/_error": 5,
+      "multi next/dist/pages/_document": 6
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "static/LfkHDx_PiKQe0hNTohQKF/pages/_app.js": 2,
+      "static/LfkHDx_PiKQe0hNTohQKF/pages/_document.js": 3,
+      "static/LfkHDx_PiKQe0hNTohQKF/pages/_error.js": 4,
+      "static/LfkHDx_PiKQe0hNTohQKF/pages/index.js": 5,
+      "static/LfkHDx_PiKQe0hNTohQKF/pages/movie.js": 6,
+      "static/LfkHDx_PiKQe0hNTohQKF/pages/movieDuration.js": 7,
+      "static/LfkHDx_PiKQe0hNTohQKF/pages/progress.js": 8
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}
