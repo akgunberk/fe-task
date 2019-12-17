@@ -36,19 +36,25 @@
       "static/LfkHDx_PiKQe0hNTohQKF/pages/progress.js": 7,
       "static/runtime/main.js": 8,
       "static/runtime/polyfills.js": 9,
-      "styles": 10
+      "styles": 10,
+      "static/O2y4KvDnXcWU0HACcwic1/pages/_app.js": 11,
+      "static/O2y4KvDnXcWU0HACcwic1/pages/_error.js": 12,
+      "static/O2y4KvDnXcWU0HACcwic1/pages/index.js": 13,
+      "static/O2y4KvDnXcWU0HACcwic1/pages/movie.js": 14,
+      "static/O2y4KvDnXcWU0HACcwic1/pages/movieDuration.js": 15,
+      "static/O2y4KvDnXcWU0HACcwic1/pages/progress.js": 16
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       10,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
       8,
       9
     ]
