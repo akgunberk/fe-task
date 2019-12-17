@@ -2,7 +2,7 @@ import React from 'react';
 
 const Duration = (props) => {
 
-    const prop = parseInt(props.min.slice(2,5));
+    const prop = (props.min != undefined) ? parseInt(props.min.slice(2,5)): null;
 
     const hour = ((prop / 60).toFixed(1)[0]);
 
